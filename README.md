@@ -65,7 +65,7 @@ Day 3 of 15 UX designs
 <img src="./assets/signin-seven.jpg" alt="signin page" >
 
 > Color: 
->  background-color:
+> background-color:
 > button-color: 
 > overall-background-color:
 
