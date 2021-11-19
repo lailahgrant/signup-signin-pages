@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background:rgb(19, 19, 19);
+    color: #fff;
+    font-family: "Oswald", "Raleway", "Sniglet";
+    /* overflow-y: hidden; */ /*hide scrollbar*/
+}
+
+a:visited, a:link, a:link, a:active {
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 4rem;
+    font-family: "Sniglet";
+}
+
+.intro{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.intro p{
+    font-family: 'Raleway';
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}
+
+.container{
+    text-align: center;
+    margin: 0 .5rem;
+    width:100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(3,8,20,0.1) 0px 0.15rem 0.5rem, rgba(2,8,20,0.1) 0px 0.075rem 0.175rem;
+}
+
+.card:hover{
+    box-shadow: rgba(2,  8,  20,  0.1) 0px 0.35em 1.175em, rgba(2, 8, 20,  0.08) 0px 0.17em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+}
+
+
+.image{
+    max-width:100%;
+    height:auto;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    margin: 1rem;
+}
+
+
+/* 
+* Styling the scrollbar
+*
+*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 1rem; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 1rem; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 1rem; 
+}
+
+
