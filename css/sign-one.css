@@ -17,9 +17,47 @@ a:visited, a:link, a:link, a:active {
     color: #285397;
 }
 
+main{
+    width:80%;
+    height:80vh;
+    margin: 5rem auto;
+    background:white;
+    padding: 1rem;
+    display:flex;
+    border-radius:.5em;
+}
 
+main .left{
+    margin:0;
+}
 
+main .left:before{
+    content: '';
+    position: absolute;
+    top:5rem;
+    left:9.41rem;
+    width: 30vw;
+    height: 80vh;
+    background: linear-gradient(225deg, #e91e63, #03a9f4);
+    z-index: 1000;
+    mix-blend-mode: screen;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
 
+main .left img{
+    width: 30vw;
+    height: 80vh;
+    position:relative;
+    top:-1rem;
+    left:-1rem;
+    /* border:1px solid red; */
+    object-fit: cover;
+    max-width:100%;
+    /* border-radius:.5em; */
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
 
 
 
