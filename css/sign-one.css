@@ -27,6 +27,8 @@ main{
     border-radius:.5em;
 }
 
+/* LEFT */
+
 main .left{
     margin:0;
 }
@@ -60,9 +62,27 @@ main .left img{
 }
 
 
+/* RIGHT */
+.right{
+    /* text-align:center; */
+}
 
+.right section .icons i.icon{
+    margin:3rem;
+    font-size:2rem;
+    /* border: 1px solid gray; */
+    padding:1rem;
+    border-radius:50%;
+    background-color: #e0e9f8;
+}
 
+.right form.form-control .bord{
+    
+}
 
+legend, h1{
+    text-align:center;
+}
 
 /* main{
     display: flex;
