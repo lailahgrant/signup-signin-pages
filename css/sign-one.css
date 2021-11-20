@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #457ed7 ;
+    color: #2c5596;
+    font-family: "Oswald", "Raleway", "Sniglet";
+    /* overflow-y: hidden; */ /*hide scrollbar*/
+}
+
+a:visited, a:link, a:link, a:active {
+    color: #285397;
+}
+
+
+
+
+
+
+
+
+
+
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    background:white;
+    width:80%;
+    padding: 1rem;
+}
+
+.right{
+    width:60%;
+    padding: 5em;
+    border:1px solid red;
+}
+
+.left{
+    background: #5395f3;
+    width:10%;
+}
+
+ */
