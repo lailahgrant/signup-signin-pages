@@ -14,13 +14,13 @@ body{
 }
 
 a:visited, a:link, a:link, a:active {
-    color: #285397;
+    color: #2c5596;
 }
 
 main{
     width:80%;
     height:80vh;
-    margin: 5rem auto;
+    margin: 2rem auto;
     background:white;
     padding: 1rem;
     display:flex;
@@ -36,9 +36,9 @@ main .left{
 main .left:before{
     content: '';
     position: absolute;
-    top:5rem;
+    top:2rem;
     left:9.41rem;
-    width: 30vw;
+    width: 40vw;
     height: 80vh;
     background: linear-gradient(225deg, #e91e63, #03a9f4);
     z-index: 1000;
@@ -48,7 +48,7 @@ main .left:before{
 }
 
 main .left img{
-    width: 30vw;
+    width: 40vw;
     height: 80vh;
     position:relative;
     top:-1rem;
@@ -63,12 +63,15 @@ main .left img{
 
 
 /* RIGHT */
-.right{
-    /* text-align:center; */
-}
+
+/* .right{ */
+    /* text-align:center;  */
+    /* width: 40vw;
+    height: 60vh; */
+/* } */
 
 .right section .icons i.icon{
-    margin:3rem;
+    margin:2rem;
     font-size:2rem;
     /* border: 1px solid gray; */
     padding:1rem;
@@ -76,8 +79,113 @@ main .left img{
     background-color: #e0e9f8;
 }
 
-.right form.form-control .bord{
-    
+form.form-control{
+    /* display:flex;
+    justify-content: center;
+    align-items: start;
+    width:100%; */
+    height:100%;
+}
+
+.right .form-control .field {
+    margin-left: 2rem;
+}
+
+
+/* .bord{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 2rem;
+    padding: 1rem .5rem 1rem .5rem;
+} */
+
+
+
+
+.right .form-control label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #285397;
+    letter-spacing: 1px;
+}
+
+.right .form-control input{
+    width:100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border:none;
+    background-color: #e0e9f8;
+    border-radius: .2rem;
+    color: #285397;
+    margin-bottom: 1rem;
+    /* width: 30vw; */
+}
+
+.right .form-control input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.pwd,
+.right .form-control input[type="password"],
+.right .form-control input i.fa-eye{
+    display:flex;
+    /* position: relative; */
+    /* right: -2rem; */
+}
+
+.pwd-icon{
+    padding:10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.pwd i {
+    position: absolute;
+}
+
+.pwd i.pwd-icon{
+    position: absolute;
+    right: 22rem;
+}
+
+
+/* .pwd {
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+
+.right .form-control input[placeholder=""]{
+    color: #285397;
+}
+
+.right .form-control input[type="submit"]{
+    background: #285397;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.right .form-control .signin h3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* position: relative;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -3px;*/
+}
+
+.right .form-control .signin h3 a{
+    color: #457ed7;
+    margin-left: .7em;
 }
 
 legend, h1{
